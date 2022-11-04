@@ -1,0 +1,248 @@
+body{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.profile-area{
+	position: sticky;
+}
+.card {
+	box-shadow: 0 0 30px rgba(0,0,0,0.5);
+	overflow: hidden;
+	border-radius: 15px;
+}
+.img1 img{
+	height: 200px;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	width: 100%;
+	opacity: 0.3;
+}
+.img2 img{
+	position:  relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 1;
+	width: 140px;
+	height:  140px;
+	border-radius:  50px;
+	border:  7px solid #fff;
+	margin-top: -80px;
+}
+.card:hover .img2 img{
+	border-color: darkcyan;
+	transition: .7s;
+}
+.main-text{
+	padding: 30px 0;
+	text-align:  center;
+}
+.main-text h1{
+	font-weight: 900;
+	font-size: 50px;
+	font-family: "Kaushan Script";
+	color: #FFFFFF;
+	margin: 0 0 20px;
+}
+.main-text h2{
+  	font-family: "Space Mono", Arial, serif;
+  	font-weight: 400;
+  	font-size: 20px;
+  	line-height: 1.7;
+  	color:  darkcyan;
+}
+.main-text p{
+	font-size: 16px;
+	padding: 0 35px;
+	font-family: "Space Mono", Arial, serif;
+	color: #FFFFFF;
+}
+.socials{
+	text-align: center;
+	padding-bottom: 20px;
+}
+.socials a{
+	font-size: 20px;
+	color: darkcyan;
+	padding:  0 10px;
+}
+.menu{
+	text-align: center;
+	padding-bottom: 20px;
+}
+.menu a{
+	font-size: 20px;
+	color:  darkcyan;
+	padding: 0 10px;
+}
+
+/* about.html css para hindi malito hahaha */
+span{
+	font-family: "Kaushan Script";
+	color: darkcyan;
+}
+.Butt{
+	text-align: center;
+	padding-bottom: 20px;
+}
+.Butt a{
+	font-family: "Kaushan Script";
+	color: white;
+	font-size: 15px;
+}
+.about{
+	text-align: center;
+	padding-bottom: 20px;
+}
+.about a{
+	font-size: 20px;
+	color:  darkcyan;
+	padding: 0 10px;
+}
+.btn{
+	background-color: darkcyan;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .2s;
+}
+.btn:hover{
+	transform: scale(1.1);
+}
+
+/* project.html css*/
+.project-area{
+	padding: 80px 0;
+}
+.project-card {
+	box-shadow: 0 0 30px rgba(0,0,0,0.5);
+	overflow: hidden;
+	border-radius: 15px;
+}
+.project-text{
+	padding: 30px 0;
+	text-align:  center;
+}
+.project-text h1{
+	font-weight: 900;
+	font-size: 50px;
+	font-family: "Kaushan Script";
+	color: #FFFFFF;
+	margin: 0 0 20px;
+}
+.project-text p{
+	font-size: 16px;
+	padding: 0 35px;
+	font-family: "Space Mono", Arial, serif;
+	color: #FFFFFF;
+	text-align:  center;
+}
+h5{
+	font-size: 80px;
+	font-family: "Kaushan Script";
+	color: white;
+	text-align: center;
+}
+.Home{
+	padding-top: 30px;
+	align-items: center;
+	text-align: center;
+	font-family: "Kaushan Script";
+}
+
+/* contact.css */
+.box 
+{
+	position: relative;
+	width: 380px;
+	height: 420px;
+	background: #1c1c1c;
+	border-radius: 8px;
+	overflow: hidden;
+}
+.box::before 
+{
+	content: '';
+	z-index: 1;
+	position: absolute;
+	top: -50%;
+	left: -50%;
+	width: 380px;
+	height: 420px;
+	transform-origin: bottom right;
+	background: linear-gradient(0deg,transparent,darkcyan,darkcyan);
+	animation: animate 6s linear infinite;
+}
+.box::after 
+{
+	content: '';
+	z-index: 1;
+	position: absolute;
+	top: -50%;
+	left: -50%;
+	width: 380px;
+	height: 420px;
+	transform-origin: bottom right;
+	background: linear-gradient(0deg,transparent,#45f3ff,#45f3ff);
+	animation: animate 6s linear infinite;
+	animation-delay: -3s;
+}
+@keyframes animate 
+{
+	0%
+	{
+		transform: rotate(0deg);
+	}
+	100%
+	{
+		transform: rotate(360deg);
+	}
+}
+.contact-card
+{
+	position: absolute;
+	inset: 2px;
+	background: #28292d;
+	padding: 50px 40px;
+	border-radius: 8px;
+	z-index: 2;
+	display: flex;
+	flex-direction: column;
+}
+.contact-text h4{
+	text-align: center;
+	font-family: "Kaushan Script";
+	font-size: 55px;
+	color: white;
+}
+.contact a{
+	font-size: 15px;
+	color:  darkcyan;
+	padding: 0 10px;
+	font-weight: 900;
+	margin: 0 0 20px;
+	margin-top: 50px;
+	margin-left: 45px;
+}
+.contact i{
+	font-size: 15px;
+	color:  darkcyan;
+	padding: 0 10px;
+	font-weight: 900;
+	margin: 0 0 20px;
+	margin-left: 45px;
+}
+.contact-butt{
+	text-align: center;
+	padding-bottom: 20px;
+}
+.contact-butt a{
+	font-family: "Kaushan Script";
+	color: white;
+	font-size: 15px;
+	margin-top: 50px;
+}
