@@ -55,4 +55,4 @@ npm run preview
 
 ## Resume download
 
-The Resume button downloads `public/John-Paul-Caisido-Manila-Resume.pdf`.
+The Resume button downloads `public/Resume.pdf`.
