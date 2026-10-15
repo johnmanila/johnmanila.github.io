@@ -2,6 +2,8 @@
 
 Personal portfolio site for John Paul Caisido Manila. It includes work history, skills, education, contact details, a profile card, and a Resume button that downloads the PDF.
 
+The public site is published with GitHub Pages: https://johnpaulmanila.github.io/jpaul/
+
 ## Language and framework
 
 | Item | Choice |

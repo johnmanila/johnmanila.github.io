@@ -11,7 +11,8 @@ export const profile = {
   linkedin: 'https://www.linkedin.com/in/johnmanila/',
   github: 'https://github.com/JohnPaulManila',
   handle: 'JohnPaulManila',
-  resume: '/John-Paul-Caisido-Manila-Resume.pdf',
+  resume: `${import.meta.env.BASE_URL}John-Paul-Caisido-Manila-Resume.pdf`,
+  portrait: `${import.meta.env.BASE_URL}portrait.png`,
   resumeName: 'John-Paul-Caisido-Manila-Resume.pdf',
   summary:
     'Software Developer with 8+ years of experience in game development, application maintenance, API integration, and web development. Experienced with JavaScript, TypeScript, Python, Lua, and Erlang, with additional exposure to C# and ASP.NET Core MVC through third-party API integration and Swagger/OpenAPI documentation. Experienced in developing game features, troubleshooting issues, supporting application releases, and building automation tools.',

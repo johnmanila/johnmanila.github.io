@@ -36,8 +36,7 @@ export default function Hero() {
               handle={profile.handle}
               status={profile.locationShort}
               contactText="Contact"
-              avatarUrl="/portrait.png"
-              // miniAvatarUrl="/portrait.png"
+              avatarUrl={profile.portrait}
               holo={0.8}
               glare={0.5}
               tiltStrength={12}
